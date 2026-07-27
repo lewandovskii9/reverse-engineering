@@ -1,0 +1,68 @@
+# Executables & Malware Samples
+*.exe
+*.dll
+*.sys
+*.drv
+*.bin
+*.elf
+*.so
+*.dylib
+*.msi
+*.scr
+*.vir
+*.malware
+*.sample
+*.vbs
+
+# Memory Dumps & Disk Forensics
+*.raw
+*.dd
+*.vmem
+*.dmp
+*.mem
+*.E01
+*.E02
+*.aff
+*.vhd
+*.vmdk
+*.ova
+*.ovf
+*.qcow2
+
+# Network Captures
+*.pcap
+*.pcapng
+*.cap
+
+# Reverse Engineering & Analysis Tools
+*.rep/
+*.idb
+*.i64
+*.nam
+*.til
+*.id0
+*.id1
+*.id2
+*.dd32
+*.dd64
+
+# Logs & Local Databases
+*.log
+*.sqlite
+*.db
+
+# Secrets & Environment Files
+.env
+*.pem
+*.key
+secrets.json
+config.local.json
+
+# OS & Editor Junk
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*.tmp
