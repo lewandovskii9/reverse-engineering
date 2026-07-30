@@ -8,7 +8,6 @@
 
 * **Static & Disassembly Analysis:** Ghidra, PEStudio, FLOSS / Strings, Godbolt Compiler Explorer.
 * **File Format & PE Inspection:** PEStudio, Detect It Easy (DIE), PE-bear.
-* **Low-Level Architecture:** x86/x64 Assembly, C-to-ASM Compilation Patterns.
 * **Detection & Blue Team:** Suspicious Windows API Mapping, YARA Rule Drafting, IoC Extraction.
 
 ---
@@ -23,17 +22,15 @@
 
 ## 📁 Labs
 
-This section contains the core practical work for this sprint, including assembly cheatsheets, PE structure triage, Ghidra writeups, and challenge solutions.
+This section contains the core practical work , including Ghidra writeups, and challenge solutions.
 
 | # | Lab / Guide | Key Findings | Focus Area |
 |---|---|---|---|
-| 01 | [Assembly Cheatsheet](./basics/asm-cheatsheet.md) | x86/x64 registers, C->ASM control flow, XOR decryption patterns | Architecture |
-| 02 | [PE Structure & Suspicious APIs](./basics/pe-structure.md) | PE headers, high-entropy sections, dangerous Windows APIs (PEB, injection) | PE Analysis |
-| 03 | [Strings & FLOSS Analysis](./static-analysis/strings-analysis.md) | Extracting obfuscated strings, regex patterns, grep filtering for IoCs | Static Analysis |
-| 04 | [PEStudio Triage Guide](./static-analysis/pestudio-guide.md) | Triage analysis, detecting packed binaries, blacklisted imports & IoC extraction | Static Triage |
-| 05 | [CrackMe #01 Writeup](./ghidra/crackme-01-writeup.md) | Ghidra decompilation, reversing hardcoded validation logic | Decompilation |
-| 06 | [CrackMe #02 Writeup](./ghidra/crackme-02-writeup.md) | Reversing anti-analysis techniques and custom algorithm logic | Logic Analysis |
-| 07 | [Challenges.re Writeups](./challenges/challenges-re-solutions.md) | Solutions and detection takeaways from practical RE challenges | Practical RE |
+| 01 | [Strings & FLOSS Analysis](./static-analysis/strings-analysis.md) | Extracting obfuscated strings, regex patterns, grep filtering for IoCs | Static Analysis |
+| 02 | [PEStudio Triage Guide](./static-analysis/pestudio-guide.md) | Triage analysis, detecting packed binaries, blacklisted imports & IoC extraction | Static Triage |
+| 03 | [CrackMe #01 Writeup](./ghidra/crackme-01-writeup.md) | Ghidra decompilation, reversing hardcoded validation logic | Decompilation |
+| 04 | [CrackMe #02 Writeup](./ghidra/crackme-02-writeup.md) | Reversing anti-analysis techniques and custom algorithm logic | Logic Analysis |
+| 05 | [Challenges.re Writeups](./challenges/challenges-re-solutions.md) | Solutions and detection takeaways from practical RE challenges | Practical RE |
 
 ---
 
