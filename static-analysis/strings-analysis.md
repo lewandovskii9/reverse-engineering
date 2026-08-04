@@ -35,7 +35,10 @@ Result:
 
 ##### 1. strings analysis
 
+
 Commands:	
+
+
 1 - `strings -a -n 6 CanYouCrackMeBaby2.exe > strings_out.txt`
 	
 2 - `grep -iE 'crack|flag|pass|key|wrong|correct|good|try' strings_out.txt`
