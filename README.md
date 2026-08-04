@@ -27,10 +27,9 @@ This section contains the core practical work , including Ghidra writeups, and c
 | # | Lab / Guide | Key Findings | Focus Area |
 |---|---|---|---|
 | 01 | [Strings & FLOSS Analysis](./static-analysis/strings-analysis.md) | Extracting obfuscated strings, grep filtering for IoCs | Static Analysis |
-| 02 | [PEStudio Triage Guide](./static-analysis/pestudio-guide.md) | Triage analysis, detecting packed binaries, blacklisted imports & IoCs extraction | Static Triage |
-| 03 | [CrackMe #01 Writeup](./ghidra/crackme-01-writeup.md) | Ghidra decompilation, reversing hardcoded validation logic | Decompilation |
-| 04 | [CrackMe #02 Writeup](./ghidra/crackme-02-writeup.md) | Reversing anti-analysis techniques and custom algorithm logic | Logic Analysis |
-| 05 | [Challenges.re Writeups](./challenges/challenges-re-solutions.md) | Solutions and detection takeaways from practical RE challenges | Practical RE |
+| 02 | [CrackMe #01 Writeup](./ghidra/crackme-01-writeup.md) | Ghidra decompilation, reversing hardcoded validation logic | Decompilation |
+| 03 | [CrackMe #02 Writeup](./ghidra/crackme-02-writeup.md) | Reversing anti-analysis techniques and custom algorithm logic | Logic Analysis |
+| 04 | [Challenges.re Writeups](./challenges/challenges-re-solutions.md) | Solutions and detection takeaways from practical RE challenges | Practical RE |
 
 ---
 
