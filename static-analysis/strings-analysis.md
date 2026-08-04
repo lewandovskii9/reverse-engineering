@@ -34,6 +34,7 @@ Result:
 
 Commands:
 	1 - `strings -a -n 6 CanYouCrackMeBaby2.exe > strings_out.txt`
+	
 	2 - `grep -iE 'crack|flag|pass|key|wrong|correct|good|try' strings_out.txt`
 
 *Workflow - Scans the entire PE file and filters output for suspicious strings*
