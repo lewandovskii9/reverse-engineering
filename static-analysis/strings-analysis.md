@@ -13,7 +13,10 @@
 ```
 Executive Summary:
 
-Performed static analysis on `CanYouCrackMeBaby2.exe` from crackmes.one, to compare `strings` and `FLOSS` extraction tools. VirusTotal triage confirmed the file is a CrackMe challenge (4/63 detection rate). Using standard `strings`, the plain-text secret (`flag{can-you-crack?}`) and developer PDB path were extracted without running the binary. Second analysis with `FLOSS` verified that the executable program uses no string obfuscation or encryption.
+Performed static analysis on `CanYouCrackMeBaby2.exe` from crackmes.one, to compare `strings` and `FLOSS` extraction tools.
+VirusTotal triage confirmed the file is a CrackMe challenge (4/63 detection rate).
+Using standard `strings`, the plain-text secret (`flag{can-you-crack?}`) and developer PDB path were extracted without running the binary.
+Second analysis with `FLOSS` verified that the executable program uses no string obfuscation or encryption.
 ```
 
 ---
