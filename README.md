@@ -1,6 +1,6 @@
 # Reverse Engineering & Malware Analysis Lab
 
-*Focused on static and basic dynamic binary analysis, Windows API behavior tracking, Ghidra decompilation, and extractable IoCs for Threat Hunting and Detection Engineering.*
+*Focused on static basic binary analysis, Windows API behavior tracking, Ghidra decompilation, and extractable IoCs for Threat Hunting and Detection Engineering.*
 
 ---
 
