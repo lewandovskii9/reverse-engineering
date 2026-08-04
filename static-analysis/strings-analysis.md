@@ -11,7 +11,7 @@
 ---
 
 
-#### Executive Summary:
+### Executive Summary:
 
 Performed static analysis on `CanYouCrackMeBaby2.exe` from crackmes.one, to compare `strings` and `FLOSS` extraction tools.
 VirusTotal triage confirmed the file is a CrackMe challenge (4/63 detection rate).
@@ -21,7 +21,7 @@ Second analysis with `FLOSS` verified that the executable program uses no string
 
 ---
 
-#### Threat Intelligence
+### Threat Intelligence
 
 * **Community Score:** 4/63 (Low detection rate, classified as benign reverse-engineering challenge/crackme). 
 * **Key Behavioral Tags:** `detect-debug-environment`, `peexe`, `64bits`. 
@@ -31,9 +31,9 @@ Result:
 ![virustotal](assets/01-01.png)
 
 ---
-#### Analysis -
+### Analysis
 
-##### 1. strings analysis
+#### 1. strings analysis
 
 
 Commands:	
@@ -48,7 +48,7 @@ Commands:
 Result:
 ![strings](assets/01-02.png)
 
-##### 2. FLOSS analysis
+#### 2. FLOSS analysis
 
 Command:
 	1 - `floss --no static -- CanYouCrackMeBaby2.exe`
@@ -58,7 +58,7 @@ Command:
 ![floss](assets/01-03.png)
 
 ---
-#### IoCs:
+### IoCs:
 
 | Type               | Value                                                            |
 | ------------------ | ---------------------------------------------------------------- |
@@ -69,7 +69,7 @@ Command:
 | Compilation Target | PE32+ executable (console) x86-64, for MS Windows                |
 
 ---
-#### Detection Notes
+### Detection Notes
 
 - `strings` and `FLOSS` serve similar triage functions, but `FLOSS` provides advanced extraction for stack-based and obfuscated strings.
 
