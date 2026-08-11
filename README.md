@@ -36,7 +36,7 @@ This section contains the core practical work , including Ghidra writeups, and c
 ## 🚩 Current Objectives
 
 * Master Ghidra decompilation to extract readable logic from obfuscated binaries.
-* Map suspicious assembly patterns and Windows API calls directly to detection rules (YARA / Sysmon).
+
 
 ---
 
