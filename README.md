@@ -7,14 +7,14 @@
 ## 🛠 Technical Stack
 
 * **Static & Disassembly Analysis:** Ghidra, PEStudio, FLOSS / Strings, Godbolt Compiler Explorer.
-* **File Format & PE Inspection:** PEStudio, Detect It Easy (DIE), PE-bear.
-* **Detection & Blue Team:** Suspicious Windows API Mapping, YARA Rule Drafting, IoC Extraction.
+* **File Format & PE Inspection:** PEStudio.
+* **Detection & Blue Team:** Suspicious Windows API Mapping, IoC Extraction.
 
 ---
 
 ## 🔧 Tools & Techniques
 
-* **Reverse Engineering:** Ghidra decompiler workflows, Control Flow Graph (CFG) analysis, function renaming, and data retyping.
+* **Reverse Engineering:** Ghidra decompiler workflows.
 * **PE Header Inspection:** Import Address Table (IAT) auditing, section entropy verification, suspicious API call identification.
 * **Malware Dissection:** XOR loop analysis, string extraction/deobfuscation, CrackMe logic reversing, and threat detection profiling.
 
