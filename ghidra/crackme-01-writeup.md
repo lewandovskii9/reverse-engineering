@@ -39,7 +39,9 @@ Located the primary target function (`FUN_140001290`).
 The function first validates that user input length equals 8 characters (`local_48 == 8`). The reference password is hardcoded directly in the binary via `strncpy(local_78, "password", 9)`. The program then uses `memcmp` to compare the first 8 bytes of user input against this hardcoded buffer. If the comparison returns 0 (exact match), access is granted. Otherwise, the program prints "Access Denied."
 ![ck4](evidence/ck4-01.png)
 
+
 From this screenshot, we can see red texted `strncpy` copy work.
+
 ![ck5](evidence/ck5-01.png)
 
 - **Short Note :** `strncpy` copy password with 0 byte in end because of peculiarity `C-like` languages, `memcmp` stops when 0 byte in the end. But if object that been compared doesnt have it, its led to `Buffer Overflow` which breaks program.
