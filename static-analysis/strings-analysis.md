@@ -3,20 +3,17 @@
 	Goal - See how `string` and `FLOSS` tools work on practice materials and distinguish between static and obfuscated string extraction without executing the binary.
 
 * **Source Material:** crackmes.one 
-* **URL:** `https://crackmes[.]one/crackme/6a0bd0592b3df128c1df5c16` 
-* **File Name:** `CanYouCrackMeBaby2.exe`
-* **MD5:** `59bc995af602d1dda74fa17074d64521` 
-* **SHA256:** `af83306ad7b16589f39ce17f9291a1fd8f5f4bfaf83e7319be9dcc98566c72c8`
+* **URL:** https://crackmes.one/crackme/6a0bd0592b3df128c1df5c16 
+* **File Name:** CanYouCrackMeBaby2.exe
+* **MD5:** 59bc995af602d1dda74fa17074d64521
+* **SHA256:** af83306ad7b16589f39ce17f9291a1fd8f5f4bfaf83e7319be9dcc98566c72c8
 
 ---
 
 
 ### Executive Summary:
 
-Performed static analysis on `CanYouCrackMeBaby2.exe` from crackmes.one, to compare `strings` and `FLOSS` extraction tools.
-VirusTotal triage confirmed the file is a CrackMe challenge (4/63 detection rate).
-Using standard `strings`, the plain-text secret (`flag{can-you-crack?}`) and developer PDB path were extracted without running the binary.
-Second analysis with `FLOSS` verified that the executable program uses no string obfuscation or encryption.
+Performed static analysis on `CanYouCrackMeBaby2.exe` from crackmes.one, to compare `strings` and `FLOSS` extraction tools.VirusTotal triage confirmed the file is a CrackMe challenge (4/63 detection rate).Using standard `strings`, the plain-text secret (`flag{can-you-crack?}`) and developer PDB path were extracted without running the binary. Second analysis with `FLOSS` verified that the executable program uses no string obfuscation or encryption.
 
 
 ---
