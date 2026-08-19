@@ -47,6 +47,7 @@ From this screenshot, we can see red texted `strncpy` copy work.
 - **Short Note :** `strncpy` copy password with 0 byte in end because of peculiarity `C-like` languages, `memcmp` stops when 0 byte in the end. But if object that been compared doesnt have it, its led to `Buffer Overflow` which breaks program.
 
 3) Result
+
 I used `wine` to test analysis results of `Ghidra` (Because PE was built for Windows platform), and it ended successfully.
 
 ![ck6](evidence/ck6-01.png)
