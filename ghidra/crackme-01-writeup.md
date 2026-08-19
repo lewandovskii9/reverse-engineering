@@ -45,7 +45,7 @@ From this screenshot, we can see red texted `strncpy` copy work.
 
 ![ck5](evidence/ck5-01.png)
 
-- **Short Note :** `strncpy` copy password with 0 byte in end because of peculiarity `C-like` languages, `memcmp` stops when 0 byte in the end. But if object that been compared doesnt have it, its led to `Buffer Overflow` which breaks program.
+- **Short Note :** `strncpy` copy password with 0 byte in end because of peculiarity `C-like` languages. `memcmp` stop when reaches 0 byte in the end. But if object that been compared doesnt have it, `memcmp` will doesnt stop and it led to `Buffer Overflow` which breaks program.
 
 3) Result
 
