@@ -20,7 +20,7 @@ Reverse-engineered a Windows binary using Ghidra without executing the file. Loc
 
 ![ck1](evidence/ck1-01.png)
 
-**Community score** : 1/70 security vendor flag this PE as malicious.
+**Community score** : 1/70 security vendor flag this file as malicious.
 
 **Protections:** None (No Packers / No Anti-Debugging).
 
