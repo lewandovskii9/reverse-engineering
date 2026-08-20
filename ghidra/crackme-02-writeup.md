@@ -24,6 +24,7 @@ Performed static binary analysis on a PE from crackmes, identifying an anti-debu
 - **Protections:** Anti-debugging, string obfuscation.
 
 ---
+### Decompilation & Static Analysis
 
 To understand program logic and how it works, for analysis it must be considered 2 main functions.
 (`FUN_140020a20` and `FUN_140001780`).
