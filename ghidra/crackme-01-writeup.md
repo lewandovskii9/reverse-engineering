@@ -1,5 +1,4 @@
 # Crackmes.one - 1st write-up 
----
 ### Scenario
 
 * **Source Material:** crackmes.one 
