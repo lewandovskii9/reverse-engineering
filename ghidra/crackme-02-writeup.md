@@ -63,7 +63,7 @@ Code 3:
 
 - **Short Note -** Its very helpful to filter on keywords such as `fail`,`success`, `password`, etc. 
 
-#### Result
+#### Result:
 
 Keygen based on username:
 ![ck9](evidence/ck9-02.png)
